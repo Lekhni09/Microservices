@@ -8,7 +8,7 @@ import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
-@Schema(
+@Schema( //for swagger and OpenAPI documentation
         name = "Customer",
         description = "Schema to hold Customer and Account information"
 )
